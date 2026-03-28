@@ -11,27 +11,45 @@
 <body>
     
     <header>
-        <h1>Mi primera pagina web</h1>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Sobre mí</a>
-            <a href="#">Contacto</a>
+        <h1>Mi pagina web</h1>
+        <nav aria-label="Menú Principal">
+            <li>
+                <a href="#inicio">Inicio</a>
+            </li>
+            <li>
+                <a href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li>
+                <a href="#contacto">Contacto</a>
+            </li>
         </nav>
     </header>
     
     <main>
-        <section>
-            <h2>Bienvenidos</h2>
-            <p>Esta es mi primera pagina web hecha con HTML.</p>
+        <section id="inicio">
+            <article>
+                <h2>Bienvenidos</h2>
+                <p>Esta es mi primera pagina web hecha con HTML.</p>
+            </article>
         </section>
-        <section>
-            <h2>Sobre mí</h2>
-            <p>Estoy aprendiendo desarrollo web paso a paso.</p>
+        <section id="sobre-mi">
+            <article>
+                <h2>Sobre mí</h2>
+                <p>Estoy aprendiendo desarrollo web paso a paso.</p>
+            </article>
+        </section>
+        <section id="contacto">
+            <article>
+                <h2>Contacto</h2>
+                <p>Puedes escribirme cuando quieras</p>
+            </article>
         </section>
     </main>
     
     <footer>
         <p>2026 Desarrollo de Pagina Web</p>
+        <address>
+            Contacto: <a href="mailto:ejemplo@email.com">ejemplo@email.com</a>
     </footer>
 
 </body>
